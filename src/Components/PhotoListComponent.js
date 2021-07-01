@@ -5,8 +5,8 @@ import PhotoCard from './PhotoCard'
 
 import './all.css'
 import ComparisionTable from './ComparisionTable'
-
-
+import {useContext} from 'react'
+ 
 function PhotoListComponent() {
 
     const [dataList,setDataList] = useState([])
