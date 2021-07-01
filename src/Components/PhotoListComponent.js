@@ -5,6 +5,7 @@ import PhotoCard from './PhotoCard'
 
 import ComparisionTable from './ComparisionTable'
 import './all.css'
+import {useContext} from 'react'
 
 function PhotoListComponent() {
 
