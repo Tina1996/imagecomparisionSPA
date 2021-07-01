@@ -3,9 +3,8 @@ import axios from 'axios'
 import { Container, Row, Table } from 'react-bootstrap'
 import PhotoCard from './PhotoCard'
 
-import ComparisionTable from './ComparisionTable'
 import './all.css'
-import {useContext} from 'react'
+import ComparisionTable from './ComparisionTable'
 
 function PhotoListComponent() {
 
